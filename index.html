@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="musicians who can't count trying to play math rock">
+    <meta name="description" content="a Meanjin/Brisbane based quartet that play a mixture of math rock, progressive rock, screamo, and noise rock.">
     <meta name="author" content="hanoi traffic">
     <meta name="robots" content="INDEX, FOLLOW">
     <meta name="revisit-after" content="7 Days">
@@ -13,9 +13,9 @@
     <meta property="og:url" content="http://hanoitraffic.com">
     <meta property="og:type" content="website">
     <meta property="og:title" content="hanoi traffic">
-    <meta property="og:image" content="http://hanoitraffic.com/hanoi.jpg">
+    <meta property="og:image" content="http://hanoitraffic.com/img/hanoi.jpg">
     <meta property="og:image:alt" content="band members: xander, nathan, isaac, and matt">
-    <meta property="og:description" content="musicians who can't count trying to play math rock">
+    <meta property="og:description" content="a Meanjin/Brisbane based quartet that play a mixture of math rock, progressive rock, screamo, and noise rock.">
     <meta property="og:site_name" content="hanoi traffic">
     <meta property="og:locale" content="en_US">
     <meta property="article:author" content="hanoi traffic">
@@ -23,304 +23,248 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="http://hanoitraffic.com">
     <meta name="twitter:title" content="hanoi traffic">
-    <meta name="twitter:description" content="musicians who can't count trying to play math rock">
-    <meta name="twitter:image" content="http://hanoitraffic.com/hanoi.jpg">
+    <meta name="twitter:description" content="a Meanjin/Brisbane based quartet that play a mixture of math rock, progressive rock, screamo, and noise rock.">
+    <meta name="twitter:image" content="http://hanoitraffic.com/img/hanoi.jpg">
     <meta name="twitter:image:alt" content="band members: xander, nathan, isaac, and matt">
 
     <title>hanoi traffic</title>
     <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;700&display=swa" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" rel="stylesheet" type="text/css">
+
     <style>
-      /* $color-text: #dedce5; */
-      /* Sakura.css v1.3.0
-      * ================
-      * Minimal css theme.
-      * Project: https://github.com/oxalorg/sakura/
-      */
-      /* Body */
-      html {
-        font-size: 62.5%;
+      html, body {
+        background-color: #000000;
+        /* background-image: linear-gradient(147deg, #000000 0%, #222222 74%); */
+        background-image: linear-gradient(147deg, #101010 0%, #050721 70%);
+      }
+
+      html, body, h1, h2, h3, h4, h5, h6, .title, .subtitle, a {
         font-family: 'Texturina', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-      }
-
-      body {
-        font-size: 2rem;
-        line-height: 1.618;
-        max-width: 38em;
-        margin: auto;
-        color: #c9c9c9;
-        background-color: #222222;
-        padding: 13px;
-        margin-bottom: 25vh;
-      }
-
-      @media (max-width: 684px) {
-        body {
-          font-size: 1.53rem;
-        }
-      }
-
-      @media (max-width: 382px) {
-        body {
-          font-size: 1.35rem;
-        }
-      }
-
-      h1, h2, h3, h4, h5, h6 {
-        line-height: 1.1;
-        font-family: 'Texturina', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-        font-weight: 700;
-        margin-top: 3rem;
-        margin-bottom: 1.5rem;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        -ms-word-break: break-all;
-        word-break: break-word;
-        -ms-hyphens: auto;
-        -moz-hyphens: auto;
-        -webkit-hyphens: auto;
-        hyphens: auto;
-      }
-
-      h1 {
-        font-size: 2.35em;
-      }
-
-      h2 {
-        font-size: 2.00em;
-      }
-
-      h3 {
-        font-size: 1.75em;
-      }
-
-      h4 {
-        font-size: 1.5em;
-      }
-
-      h5 {
-        font-size: 1.25em;
-      }
-
-      h6 {
-        font-size: 1em;
-      }
-
-      p {
-        margin-top: 0px;
-        margin-bottom: 2.5rem;
-      }
-
-      small, sub, sup {
-        font-size: 75%;
-      }
-
-      hr {
-        border-color: #ffffff;
-      }
-
-      a {
-        text-decoration: none;
-        color: #c9c9c9;
+        color: #c9c9c9 !important;
       }
 
       a:hover {
-        color: #fd4141;
-      }
-
-      ul {
-        padding-left: 1.4em;
-        margin-top: 0px;
-        margin-bottom: 2.5rem;
-        list-style: none;
-      }
-
-      li {
-        margin-bottom: 0.4em;
-      }
-
-      blockquote {
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 1em;
-        padding-top: 0.8em;
-        padding-bottom: 0.8em;
-        padding-right: 0.8em;
-        border-left: 5px solid #ffffff;
-        margin-bottom: 2.5rem;
-        background-color: #4a4a4a;
-      }
-
-      blockquote p {
-        margin-bottom: 0;
-      }
-
-      img {
-        height: auto;
-        max-width: 100%;
-        margin-top: 0px;
-        margin-bottom: 2.5rem;
-      }
-
-      /* Pre and Code */
-      pre {
-        background-color: #4a4a4a;
-        display: block;
-        padding: 1em;
-        overflow-x: auto;
-        margin-top: 0px;
-        margin-bottom: 2.5rem;
-      }
-
-      code {
-        font-size: 0.9em;
-        padding: 0 0.5em;
-        background-color: #4a4a4a;
-        white-space: pre-wrap;
-      }
-
-      pre > code {
-        padding: 0;
-        background-color: transparent;
-        white-space: pre;
-      }
-
-      /* Tables */
-      table {
-        text-align: justify;
-        width: 100%;
-        border-collapse: collapse;
-      }
-
-      td, th {
-        padding: 0.5em;
-        border-bottom: 1px solid #4a4a4a;
-      }
-
-      /* Buttons, forms and input */
-      input, textarea {
-        border: 1px solid #c9c9c9;
-      }
-
-      input:focus, textarea:focus {
-        border: 1px solid #ffffff;
-      }
-
-      textarea {
-        width: 100%;
-      }
-
-      .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
-        display: inline-block;
-        padding: 5px 10px;
-        text-align: center;
-        text-decoration: none;
-        white-space: nowrap;
-        background-color: #ffffff;
-        color: #222222;
-        border-radius: 1px;
-        border: 1px solid #ffffff;
-        cursor: pointer;
-        box-sizing: border-box;
-      }
-
-      .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
-        cursor: default;
-        opacity: .5;
-      }
-
-      .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
-        background-color: #c9c9c9;
-        border-color: #c9c9c9;
-        color: #222222;
-        outline: 0;
-        }
-
-      textarea, select, input[type] {
-        color: #c9c9c9;
-        padding: 6px 10px;
-        /* The 6px vertically centers text on FF, ignored by Webkit */
-        margin-bottom: 10px;
-        background-color: #4a4a4a;
-        border: 1px solid #4a4a4a;
-        border-radius: 4px;
-        box-shadow: none;
-        box-sizing: border-box;
-      }
-
-      textarea:focus, select:focus, input[type]:focus {
-        border: 1px solid #ffffff;
-        outline: 0;
-      }
-
-      input[type="checkbox"]:focus {
-        outline: 1px dotted #ffffff;
-      }
-
-      label, legend, fieldset {
-        display: block;
-        margin-bottom: .5rem;
-        font-weight: 600;
-      }
-
-      iframe {
-        width: 100%;
-        height: auto;
-        min-height: 400px;
+        text-decoration: underline;
       }
     </style>
+
   </head>
   <body>
-    <h1>&gt; hanoi traffic</h1>
-    <p style="margin-left: 2em;">a brisbane based progressive screamo / indie math quartet</p>
-    <img src="/hanoi.jpg" alt="band members: xander, nathan, isaac, and matt" style="margin-bottom: 0;">
-    <p style="text-align: center;"><i style="letter-spacing: 3px;">~ xander, nathan, isaac, matt ~</i></p>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">hanoi traffic</h1>
 
-    <h1>links</h1>
-    <ul>
-      <li>
-        <span style="margin-right: 0.125em;">&#9760;</span>
-        <a href="https://www.facebook.com/hanoitraffic" target="_blank" rel="noopener noreferrer">
-          facebook
-        </a>
-      </li>
-      <li>
-        <span style="margin-right: 0.125em;">&#9760;</span>
-        <a href="https://www.instagram.com/hanoitraffic" target="_blank" rel="noopener noreferrer">
-          instagram
-        </a>
-      </li>
-      <li>
-        <span style="margin-right: 0.125em;">&#9760;</span>
-        <a href="https://www.tiktok.com/@hanoitraffic" target="_blank" rel="noopener noreferrer">
-          tiktok
-        </a>
-      </li>
-      <li>
-        <span style="margin-right: 0.125em;">&#9760;</span>
-        <a href="https://www.youtube.com/channel/UC8dIh64hDKOB3jFStxFbHYQ" target="_blank" rel="noopener noreferrer">
-          youtube
-        </a>
-      </li>
-    </ul>
+        <div class="block">
+          a Meanjin/Brisbane based quartet that play a mixture of math rock, progressive rock, screamo, and noise rock.
+        </div>
 
-    <h1>merch</h1>
-    <p>hanoi traffic shirts and tote bags are available for purchase at our shows!</p>
-    <img src="/shirt.jpg" alt="image of a hanoi traffic electric noodles t-shirt">
-    <img src="/tote.jpg" alt="image of several hanoi traffic tote bags hanging off a rotary clothes line">
+        <div class="columns is-centered">
+          <div class="column is-two-thirds">
+            <img src="/img/hanoi.jpg" alt="band members: xander, nathan, isaac, and matt" class="image">
+            <div class="has-text-centered is-italic">
+              <script type="text/javascript">
+                let names = ['isaac', 'matt', 'nathan', 'xander'];
+                let currentIndex = names.length;
 
-    <h1>past shows</h1>
-    <ul>
-      <li><span style="margin-right: 0.125em;">&#9760;</span> 07/05/2021 @ king lear's throne, fortitude valley</li>
-      <li><span style="margin-right: 0.125em;">&#9760;</span> 03/04/2021 @ the cave inn, woolloongabba</li>
-      <li><span style="margin-right: 0.125em;">&#9760;</span> 04/12/2020 @ tomcat, fortitude valley</li>
-    </ul>
+                while (0 !== currentIndex) {
+                  const randomIndex = Math.floor(Math.random() * currentIndex);
+                  currentIndex--;
+                  const current = names[currentIndex];
+                  const random = names[randomIndex];
+                  names[currentIndex] = random;
+                  names[randomIndex] = current;
+                }
 
-    <h1>watch</h1>
-    <iframe
-      src="https://www.youtube.com/embed/_1aZI9gKEoo"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+                document.write('~ ' + names.join(', ') + ' ~');
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">links</h1>
+        <ul>
+          <li>
+            <span class="mr-1">&#9760;</span>
+            <a href="https://www.facebook.com/hanoitraffic" target="_blank" rel="noopener noreferrer">
+              facebook
+            </a>
+          </li>
+          <li>
+            <span class="mr-1">&#9760;</span>
+            <a href="https://www.instagram.com/hanoitraffic" target="_blank" rel="noopener noreferrer">
+              instagram
+            </a>
+          </li>
+          <li>
+            <span class="mr-1">&#9760;</span>
+            <a href="https://hanoi-traffic.bandcamp.com/releases" target="_blank" rel="noopener noreferrer">
+              bandcamp
+            </a>
+          </li>
+          <li>
+            <span class="mr-1">&#9760;</span>
+            <a href="https://www.tiktok.com/@hanoitraffic" target="_blank" rel="noopener noreferrer">
+              tiktok
+            </a>
+          </li>
+          <li>
+            <span class="mr-1">&#9760;</span>
+            <a href="https://www.youtube.com/channel/UC8dIh64hDKOB3jFStxFbHYQ" target="_blank" rel="noopener noreferrer">
+              youtube
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section has-background-black">
+      <div class="container">
+        <div class="py-6">
+          <div class="columns is-centered">
+            <div class="column is-one-third">
+              <h1 class="title is-size-3">single out now!</h1>
+
+              <div class="block px-6">
+                <img src="/img/no-money.jpg" class="image" alt="cover for our single: there's no money in math rock">
+              </div>
+              <iframe
+                src="https://open.spotify.com/embed/track/0xrNYE8oTNjWwiMrOSPnlm?theme=0"
+                width="100%"
+                height="80"
+                frameBorder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">merch</h1>
+        <div class="block">
+          hanoi traffic shirts and tote bags are available for purchase at our shows. we can also ship items directly to you, DM us on our socials for more info!
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column is-one-third">
+            <img src="/img/shirt.jpg" alt="image of a hanoi traffic electric noodles t-shirt" class="image">
+          </div>
+          <div class="column is-one-third">
+            <img src="/img/tote.jpg" alt="image of several hanoi traffic tote bags hanging off a rotary clothes line" class="image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">past shows</h1>
+        <ul>
+          <li>07/05/2021 @ king lear's throne, fortitude valley</li>
+          <li>03/04/2021 @ the cave inn, woolloongabba</li>
+          <li>04/12/2020 @ tomcat, fortitude valley</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">media</h1>
+
+        <div class="columns is-multiline is-centered">
+          <div class="column is-narrow">
+            <a href="/img/full-res/king-lears.jpg" target="_blank">
+              <img class="image" src="/img/king-lears.jpg" alt="hanoi traffic playing at king lear's throne, fortitude valley" style="max-height: 400px;">
+            </a>
+          </div>
+
+          <div class="column is-narrow">
+            <a href="/img/full-res/fight.jpg" target="_blank">
+              <img class="image" src="/img/fight.jpg" alt="hanoi traffic" style="max-height: 400px;">
+            </a>
+          </div>
+
+          <div class="column is-narrow">
+            <a href="/img/full-res/polaroid.jpg" target="_blank">
+              <img class="image" src="/img/polaroid.jpg" alt="hanoi traffic playing" style="max-height: 400px;">
+            </a>
+          </div>
+
+          <div class="column is-narrow">
+            <a href="/img/full-res/blurry.jpg" target="_blank">
+              <img class="image" src="/img/blurry.jpg" alt="blurry photo of hanoi traffic playing at tomcat, fortitude valley" style="max-height: 400px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">watch</h1>
+
+        <div class="columns is-centered">
+          <div class="column is-two-thirds">
+            <iframe
+              src="https://www.youtube.com/embed/_1aZI9gKEoo"
+              title="YouTube video player"
+              frameborder="0"
+              width="100%"
+              style="height: auto; min-height: 500px;"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-6 mt-6 has-background-black">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h1 class="title is-size-4 mb-0">hanoi traffic</h1>
+            <div>isaac, matt, xander, nathan</div>
+          </div>
+
+          <div class="column has-text-centered-mobile">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/hanoitraffic" target="_blank" rel="noopener noreferrer">
+                  facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/hanoitraffic" target="_blank" rel="noopener noreferrer">
+                  instagram
+                </a>
+              </li>
+              <li>
+                  <a href="https://hanoi-traffic.bandcamp.com/releases" target="_blank" rel="noopener noreferrer">
+                    bandcamp
+                  </a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@hanoitraffic" target="_blank" rel="noopener noreferrer">
+                  tiktok
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UC8dIh64hDKOB3jFStxFbHYQ" target="_blank" rel="noopener noreferrer">
+                  youtube
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
