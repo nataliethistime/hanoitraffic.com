@@ -1,0 +1,7 @@
+{
+  "name": "1vasari-sites",
+  "private": true,
+  "dependencies": {
+    "bulma": "0.9.3"
+  }
+}

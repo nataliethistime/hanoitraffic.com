@@ -1,1 +1,4 @@
 .DS_Sore
+vendor/
+node_modules/
+logs/

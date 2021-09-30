@@ -1,0 +1,146 @@
+<?php
+
+require_once __DIR__ . '/includes/SDLKit.php';
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <?php require 'components/head.php'; ?>
+    <title>hanoi traffic</title>
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">hanoi traffic</h1>
+
+        <div class="block">
+          a Meanjin/Brisbane based quartet that play a mixture of math rock, progressive rock, screamo, and noise rock.
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column is-two-thirds">
+            <img src="img/hanoi.jpg" alt="band members: xander, nathan, isaac, and matt" class="image">
+            <div class="has-text-centered is-italic">
+              ~ xander, nathan, isaac, matt ~
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section has-background-black">
+      <div class="container">
+        <div class="py-6">
+          <div class="columns is-centered">
+            <div class="column is-one-third">
+              <h1 class="title is-size-3">ep out now!</h1>
+
+              <div class="block px-6">
+                <img src="img/ep.jpg" class="image" alt="cover for our ep: kids with no style, available everywhere now">
+              </div>
+              <iframe
+                src="https://open.spotify.com/embed/album/5jp9oDGLt9TrPlkyGdWBfE"
+                width="100%"
+                height="380"
+                frameBorder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">merch</h1>
+        <div class="block">
+          hanoi traffic shirts and tote bags are available for purchase at our shows. we can also ship items directly to you, DM us on our socials for more info!
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column is-one-third">
+            <img src="img/shirt.jpg" alt="image of a hanoi traffic electric noodles t-shirt" class="image">
+          </div>
+          <div class="column is-one-third">
+            <img src="img/tote.jpg" alt="image of several hanoi traffic tote bags hanging off a rotary clothes line" class="image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">past shows</h1>
+        <ul>
+          <li>11/09/2021 @ common house, fortitude valley</li>
+          <li>03/09/2021 @ the cave inn, woolloongabba</li>
+          <li>02/09/2021 @ the cave inn, woolloongabba</li>
+          <li>30/08/2021 @ king lear's throne (schema fest), fortitude valley</li>
+          <li>29/07/2021 @ back dock arts, fortitude valley</li>
+          <li>07/05/2021 @ king lear's throne, fortitude valley</li>
+          <li>03/04/2021 @ the cave inn, woolloongabba</li>
+          <li>04/12/2020 @ tomcat, fortitude valley</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">media</h1>
+
+        <div class="columns is-multiline is-centered">
+          <div class="column is-narrow">
+            <a href="img/full-res/king-lears.jpg" target="_blank">
+              <img class="image" src="img/king-lears.jpg" alt="hanoi traffic playing at king lear's throne, fortitude valley" style="max-height: 400px;">
+            </a>
+          </div>
+
+          <div class="column is-narrow">
+            <a href="img/full-res/fight.jpg" target="_blank">
+              <img class="image" src="img/fight.jpg" alt="hanoi traffic" style="max-height: 400px;">
+            </a>
+          </div>
+
+          <div class="column is-narrow">
+            <a href="img/full-res/polaroid.jpg" target="_blank">
+              <img class="image" src="img/polaroid.jpg" alt="hanoi traffic playing" style="max-height: 400px;">
+            </a>
+          </div>
+
+          <div class="column is-narrow">
+            <a href="img/full-res/blurry.jpg" target="_blank">
+              <img class="image" src="img/blurry.jpg" alt="blurry photo of hanoi traffic playing at tomcat, fortitude valley" style="max-height: 400px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">watch</h1>
+
+        <div class="columns is-centered">
+          <div class="column is-two-thirds">
+            <iframe
+              src="https://www.youtube.com/embed/_1aZI9gKEoo"
+              title="YouTube video player"
+              frameborder="0"
+              width="100%"
+              style="height: auto; min-height: 500px;"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <?php require 'components/footer.php'; ?>
+  </body>
+</html>

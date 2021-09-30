@@ -1,0 +1,11 @@
+{
+  "require": {
+    "sdltech/sdlkit": "dev-main#v0.10.15"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://f0bec28fd9f4010e59ae1dd455745e374f00a43a:x-oauth-basic@github.com/SDLTech/SDLKit"
+    }
+  ]
+}
