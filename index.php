@@ -1,9 +1,3 @@
-<?php
-
-require_once __DIR__ . '/includes/SDLKit.php';
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>

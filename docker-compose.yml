@@ -1,11 +1,15 @@
 version: '3'
 
+volumes:
+  node_modules:
+
 services:
   web:
-    image: httpd:2
+    image: php:8.0-apache
+    volumes:
+      - '.:/var/www/html'
+      - 'node_modules:/var/www/html/node_modules'
     expose:
       - 3000
     ports:
       - '3000:80'
-    volumes:
-      - '.:/usr/local/apache2/htdocs'

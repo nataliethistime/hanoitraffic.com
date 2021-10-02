@@ -24,7 +24,7 @@
 <meta name="twitter:image:alt" content="band members: xander, nathan, isaac, and matt">
 
 <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;700&display=swa" rel="stylesheet">
-<?php XAsset::getAsset('bulma.css'); ?>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" rel="stylesheet">
 
 <style>
   html, body {
