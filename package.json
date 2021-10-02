@@ -3,5 +3,12 @@
   "private": true,
   "dependencies": {
     "bulma": "0.9.3"
+  },
+  "devDependencies": {
+    "sass": "^1.35.2"
+  },
+  "scripts": {
+    "build": "sass css/styles.scss:build/styles.css --no-source-map --style compressed",
+    "dev": "sass --watch --poll --no-source-map css/styles.scss:build/styles.css"
   }
 }

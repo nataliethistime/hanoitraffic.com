@@ -24,24 +24,4 @@
 <meta name="twitter:image:alt" content="band members: xander, nathan, isaac, and matt">
 
 <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;700&display=swa" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" rel="stylesheet">
-
-<style>
-  html, body {
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #101010 0%, #050721 70%);
-  }
-
-  html, body, h1, h2, h3, h4, h5, h6, .title, .subtitle, a {
-    font-family: 'Texturina', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-    color: #c9c9c9 !important;
-  }
-
-  a.link {
-    font-weight: bold;
-  }
-
-  a.link:hover {
-    text-decoration: underline;
-  }
-</style>
+<link href="build/styles.css?v=20211002" rel="stylesheet">

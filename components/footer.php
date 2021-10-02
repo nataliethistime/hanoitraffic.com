@@ -39,7 +39,7 @@
       <div class="column is-one-third has-text-centered">
         hanoi traffic is supported by
         <br>
-        <a href="https://www.facebook.com/teamglasses" target="_blank" class="link">team classes records</a>,
+        <a href="https://www.facebook.com/teamglasses" target="_blank" class="link">team classes records</a>
         <br>
         thank you adam and teegan!
       </div>

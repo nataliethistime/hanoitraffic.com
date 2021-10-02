@@ -28,13 +28,14 @@
     <section class="section has-background-black">
       <div class="container">
         <div class="py-6">
-          <div class="columns is-centered">
-            <div class="column is-one-third">
-              <h1 class="title is-size-3">ep out now!</h1>
+          <h1 class="title is-size-3 has-text-centered">ep out now!</h1>
 
-              <div class="block px-6">
-                <img src="img/ep.jpg" class="image" alt="cover for our ep: kids with no style, available everywhere now">
-              </div>
+          <div class="columns is-centered is-vcentered">
+            <div class="column is-one-third">
+              <img src="img/ep.jpg" class="image" alt="cover for our ep: kids with no style, available everywhere now">
+            </div>
+
+            <div class="column is-one-third">
               <iframe
                 src="https://open.spotify.com/embed/album/5jp9oDGLt9TrPlkyGdWBfE"
                 width="100%"
@@ -53,7 +54,7 @@
       <div class="container">
         <h1 class="title is-size-3">merch</h1>
         <div class="block">
-          hanoi traffic shirts and tote bags are available for purchase at our shows or <a href="https://hanoi-traffic.bandcamp.com/merch" target="_blank" class="link">on bandcamp</a>.
+          hanoi traffic shirts and tote bags are available for purchase at our shows or <a href="https://hanoi-traffic.bandcamp.com/merch" target="_blank">on bandcamp</a>.
         </div>
 
         <div class="columns is-centered">
@@ -76,7 +77,7 @@
         <h1 class="title is-size-3">tapes</h1>
 
         <div class="block">
-          thanks to the incredible work of <a href="https://teamglasses.bandcamp.com/" target="_blank" class="link">team glasses records</a>
+          thanks to the incredible work of <a href="https://teamglasses.bandcamp.com/" target="_blank">team glasses records</a>
           we have limited edition cassette tapes of <em>kids with no style</em> available.
           <br>
           each tape is made from up-cycled cassets, cut to length, re-spliced, and packaged by hand!
@@ -117,25 +118,25 @@
         <div class="columns is-multiline is-centered">
           <div class="column is-narrow">
             <a href="img/full-res/king-lears.jpg" target="_blank">
-              <img class="image" src="img/king-lears.jpg" alt="hanoi traffic playing at king lear's throne, fortitude valley" style="max-height: 400px;">
+              <img class="image" src="img/king-lears.jpg" alt="hanoi traffic playing at king lear's throne, fortitude valley" style="max-height: 300px;">
             </a>
           </div>
 
           <div class="column is-narrow">
             <a href="img/full-res/fight.jpg" target="_blank">
-              <img class="image" src="img/fight.jpg" alt="hanoi traffic" style="max-height: 400px;">
+              <img class="image" src="img/fight.jpg" alt="hanoi traffic" style="max-height: 300px;">
             </a>
           </div>
 
           <div class="column is-narrow">
             <a href="img/full-res/polaroid.jpg" target="_blank">
-              <img class="image" src="img/polaroid.jpg" alt="hanoi traffic playing" style="max-height: 400px;">
+              <img class="image" src="img/polaroid.jpg" alt="hanoi traffic playing" style="max-height: 300px;">
             </a>
           </div>
 
           <div class="column is-narrow">
             <a href="img/full-res/blurry.jpg" target="_blank">
-              <img class="image" src="img/blurry.jpg" alt="blurry photo of hanoi traffic playing at tomcat, fortitude valley" style="max-height: 400px;">
+              <img class="image" src="img/blurry.jpg" alt="blurry photo of hanoi traffic playing at tomcat, fortitude valley" style="max-height: 300px;">
             </a>
           </div>
         </div>
