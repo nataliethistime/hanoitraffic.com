@@ -59,16 +59,20 @@ require_once __DIR__ . '/includes/SDLKit.php';
       <div class="container">
         <h1 class="title is-size-3">merch</h1>
         <div class="block">
-          hanoi traffic shirts and tote bags are available for purchase at our shows. we can also ship items directly to you, DM us on our socials for more info!
+          hanoi traffic shirts and tote bags are available for purchase at our shows or <a href="https://hanoi-traffic.bandcamp.com/merch" target="_blank">on bandcamp</a>.
         </div>
 
         <div class="columns is-centered">
           <div class="column is-one-third">
-            <img src="img/shirt.jpg" alt="image of a hanoi traffic electric noodles t-shirt" class="image">
+            <img src="img/matt.jpg" alt="image of a hanoi traffic kids with no style t-shirt" class="image">
           </div>
           <div class="column is-one-third">
-            <img src="img/tote.jpg" alt="image of several hanoi traffic tote bags hanging off a rotary clothes line" class="image">
+            <img src="img/tote2.jpg" alt="image of several hanoi traffic tote bags hanging off a rotary clothes line" class="image">
           </div>
+        </div>
+
+        <div class="block has-text-centered">
+          <a href="https://hanoi-traffic.bandcamp.com/merch" target="_blank" class="button is-white is-outlined">buy on bandcamp</a>
         </div>
       </div>
     </section>
