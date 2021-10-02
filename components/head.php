@@ -37,7 +37,11 @@
     color: #c9c9c9 !important;
   }
 
-  a:hover {
+  a.link {
+    font-weight: bold;
+  }
+
+  a.link:hover {
     text-decoration: underline;
   }
 </style>

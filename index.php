@@ -53,7 +53,7 @@
       <div class="container">
         <h1 class="title is-size-3">merch</h1>
         <div class="block">
-          hanoi traffic shirts and tote bags are available for purchase at our shows or <a href="https://hanoi-traffic.bandcamp.com/merch" target="_blank">on bandcamp</a>.
+          hanoi traffic shirts and tote bags are available for purchase at our shows or <a href="https://hanoi-traffic.bandcamp.com/merch" target="_blank" class="link">on bandcamp</a>.
         </div>
 
         <div class="columns is-centered">
@@ -67,6 +67,29 @@
 
         <div class="block has-text-centered">
           <a href="https://hanoi-traffic.bandcamp.com/merch" target="_blank" class="button is-white is-outlined">buy on bandcamp</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-size-3">tapes</h1>
+
+        <div class="block">
+          thanks to the incredible work of <a href="https://teamglasses.bandcamp.com/" target="_blank" class="link">team glasses records</a>
+          we have limited edition cassette tapes of <em>kids with no style</em> available.
+          <br>
+          each tape is made from up-cycled cassets, cut to length, re-spliced, and packaged by hand!
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column is-one-third">
+            <img src="img/tapes.jpg" alt="image of the hanoi traffic tapes and art" class="image">
+          </div>
+        </div>
+
+        <div class="block has-text-centered">
+          <a href="https://teamglasses.bandcamp.com/album/kids-with-no-style" target="_blank" class="button is-white is-outlined">buy a tape</a>
         </div>
       </div>
     </section>
