@@ -99,6 +99,7 @@
       <div class="container">
         <h1 class="title is-size-3">past shows</h1>
         <ul>
+          <li>19/11/2021 @ substation, woolloongabba</li>
           <li>09/10/2021 @ backbone youth arts, east brisbane</li>
           <li>07/10/2021 @ the bearded lady, west end</li>
           <li>11/09/2021 @ common house, fortitude valley</li>
