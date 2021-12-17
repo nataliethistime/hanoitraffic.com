@@ -99,6 +99,9 @@
       <div class="container">
         <h1 class="title is-size-3">past shows</h1>
         <ul>
+          <li>17/12/2021 @ the flamin' galah, brisbane</li>
+          <li>12/12/2021 @ woolly mammoth, fortitude valley</li>
+          <li>10/12/2021 @ the stew's first birthday party, spring hill</li>
           <li>19/11/2021 @ substation, woolloongabba</li>
           <li>09/10/2021 @ backbone youth arts, east brisbane</li>
           <li>07/10/2021 @ the bearded lady, west end</li>
