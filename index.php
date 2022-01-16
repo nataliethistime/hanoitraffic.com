@@ -99,6 +99,7 @@
       <div class="container">
         <h1 class="title is-size-3">past shows</h1>
         <ul>
+          <li>15/01/2022 @ the bearded lady, west end</li>
           <li>17/12/2021 @ the flamin' galah, brisbane</li>
           <li>12/12/2021 @ woolly mammoth, fortitude valley</li>
           <li>10/12/2021 @ the stew's first birthday party, spring hill</li>
