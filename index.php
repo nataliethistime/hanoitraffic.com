@@ -59,7 +59,7 @@
 
         <div class="columns is-centered">
           <div class="column is-one-third">
-            <img src="img/matt.jpg" alt="image of a hanoi traffic kids with no style t-shirt" class="image">
+            <img src="img/shirt2.jpg" alt="image of a hanoi traffic shirt" class="image">
           </div>
           <div class="column is-one-third">
             <img src="img/tote2.jpg" alt="image of several hanoi traffic tote bags hanging off a rotary clothes line" class="image">
@@ -77,20 +77,31 @@
         <h1 class="title is-size-3">tapes</h1>
 
         <div class="block">
-          thanks to the incredible work of <a href="https://teamglasses.bandcamp.com/" target="_blank">team glasses records</a>
-          we have limited edition cassette tapes of <em>kids with no style</em> available.
-          <br>
-          each tape is made from up-cycled cassets, cut to length, re-spliced, and packaged by hand!
+          we have wonderful tapes of our ep <em>kids with no style</em> available in two different designs.
+          many thanks to the incredible work of <a href="https://teamglasses.bandcamp.com/" target="_blank">team glasses records</a> and
+          <a href="https://zbrusa.com/" target="_blank">zegema beach records</a>, respectively!
         </div>
 
         <div class="columns is-centered">
           <div class="column is-one-third">
-            <img src="img/tapes.jpg" alt="image of the hanoi traffic tapes and art" class="image">
-          </div>
-        </div>
+            <div class="block">
+              <img src="/img/tapes.jpg" alt="image of the hanoi traffic tapes and art" class="image">
+            </div>
 
-        <div class="block has-text-centered">
-          <a href="https://teamglasses.bandcamp.com/album/kids-with-no-style" target="_blank" class="button is-white is-outlined">buy a tape</a>
+            <div class="block has-text-centered">
+              <a href="https://teamglasses.bandcamp.com/album/kids-with-no-style" target="_blank" class="button is-white is-outlined">buy</a>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="block">
+              <img src="/img/tapes2.jpg" class="image">
+            </div>
+
+            <div class="block has-text-centered">
+              <a href="https://zbrusa.com/collections/tapes/products/ttt056" target="_blank" class="button is-white is-outlined">buy</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -122,30 +133,12 @@
       <div class="container">
         <h1 class="title is-size-3">media</h1>
 
-        <div class="columns is-multiline is-centered">
-          <div class="column is-narrow">
-            <a href="img/full-res/king-lears.jpg" target="_blank">
-              <img class="image" src="img/king-lears.jpg" alt="hanoi traffic playing at king lear's throne, fortitude valley" style="max-height: 300px;">
-            </a>
-          </div>
-
-          <div class="column is-narrow">
-            <a href="img/full-res/fight.jpg" target="_blank">
-              <img class="image" src="img/fight.jpg" alt="hanoi traffic" style="max-height: 300px;">
-            </a>
-          </div>
-
-          <div class="column is-narrow">
-            <a href="img/full-res/polaroid.jpg" target="_blank">
-              <img class="image" src="img/polaroid.jpg" alt="hanoi traffic playing" style="max-height: 300px;">
-            </a>
-          </div>
-
-          <div class="column is-narrow">
-            <a href="img/full-res/blurry.jpg" target="_blank">
-              <img class="image" src="img/blurry.jpg" alt="blurry photo of hanoi traffic playing at tomcat, fortitude valley" style="max-height: 300px;">
-            </a>
-          </div>
+        <div class="columns is-multiline is-centered is-gallery">
+          <div class="column is-narrow"><img class="image" src="/img/gallery/1.jpg"></div>
+          <div class="column is-narrow"><img class="image" src="/img/gallery/2.jpg"></div>
+          <div class="column is-narrow"><img class="image" src="/img/gallery/3.jpg"></div>
+          <div class="column is-narrow"><img class="image" src="/img/gallery/4.jpg"></div>
+          <div class="column is-narrow"><img class="image" src="/img/gallery/5.jpg"></div>
         </div>
       </div>
     </section>
