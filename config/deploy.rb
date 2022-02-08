@@ -3,7 +3,7 @@ lock '~> 3.16.0'
 set :application, 'hanoitraffic.com'
 set :repo_url, 'git@github.com:1vasari/hanoitraffic.com.git'
 set :branch, :main
-set :deploy_to, '/var/www/hanoitraffic.com'
+set :deploy_to, '/var/www/old.hanoitraffic.com'
 set :keep_releases, 5
 set :npm_flags, '--silent --no-progress'
 
